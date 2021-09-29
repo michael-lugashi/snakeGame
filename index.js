@@ -14,7 +14,16 @@ function buildSnakeGrid() {
         }
         snakeGrid.push(gridRow)
     }
+    makeSnake(snakeGrid)
 }
+
+function makeSnake(snakeGrid) {
+    const randomRow = Math.floor(Math.random()*11)
+    const randomCol = Math.floor(Math.random()*11)
+    const snake = snakeGrid[randomRow+2][randomCol+2]
+    snake.classList.add('snake')
+}
+
 
 function createElem(tagName, cls) {
     const newElem = document.createElement(tagName)

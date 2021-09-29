@@ -28,3 +28,6 @@ body {
     width: 2vw;
     height: 2vw;
 }
+.snake {
+    background-color: yellow;
+}
