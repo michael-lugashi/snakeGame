@@ -1,0 +1,30 @@
+body {
+    background-color: white
+    /* display: flex;
+    justify-content: center; */
+}
+#pageTitle {
+    text-align: center;
+    color: red
+}
+#gameContainer {
+    margin:auto;
+    background-color: yellow;
+    border: solid;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gridSpaceBlack {
+    background-color: black;
+    /* border: solid red; */
+    width: 2vw;
+    height: 2vw;
+}
+.gridSpaceGrey {
+    background-color: grey;
+    /* border: solid red; */
+    width: 2vw;
+    height: 2vw;
+}
